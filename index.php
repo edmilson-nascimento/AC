@@ -6,8 +6,6 @@
         <title>ABAP Consulting</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="ABAP Consulting Soluções em Tecnologia" />
-        <!--<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />-->
-        <!--<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />-->
         <meta name="keywords" content="SAP, ABAP, SAP ABAP, consultoria, sap brasil, consultoria sap, consultoria abap, consultoria pi, erp sap, sap goias, sap goiania, sap brasilia" />
         <meta name="author" content="M&E IT Services" />
 
@@ -21,8 +19,6 @@
         <meta name="twitter:image" content="" />
         <meta name="twitter:url" content="" />
         <meta name="twitter:card" content="" />
-
-        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400, 900" rel="stylesheet"> -->
 
         <!-- Animate.css -->
         <link rel="stylesheet" href="css/animate.css">
@@ -85,7 +81,6 @@
                             <div class="display-t">
                                 <div class="display-tc">
                                     <h1 class="animate-box" data-animate-effect="fadeIn">Qualidade em soluções de Software</h1>
-                                    <!--<p class="gtco-video-link animate-box" data-animate-effect="fadeIn"><a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-controller-play"></i></a></p>-->
                                 </div>
                             </div>
                         </div>

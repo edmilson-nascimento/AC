@@ -48,6 +48,15 @@
         <link rel="shortcut icon" href="images/icons8-workflow-50.png" type="image/x-icon" />
 
     </head>
+    <?php
+    
+//    $mensagem = filter_input($_POST, 'message');
+    
+//    if (isset($_POST['message'])){
+    if (isset($_GET['message'])){
+        header('../');
+    }
+    ?>
     <body>
 
         <div class="gtco-loader"></div>
@@ -105,7 +114,6 @@
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                             <h2 class="heading-colored">Excelência &amp; Inovação</h2>
                             <p>Nascendo da ideia de dois desenvolvedores, a ABAP Consulting (AC) vem fornecendo solução SAP e não-SAP que prezava pela qualidade. Essa sempre foi a primeira premissa. Com anos de atuação, usando soluções modernas e que se aplicam perfeitamente a necessidade, nos da AC, estamos sempre nos reinventando e criando soluções de vanguarda, seguras e sob medida. Manter esse padrão de qualidade exige muito, mas é uma recompensa pessoal para nos ver que conseguimos atender a necessidade de forma a prover um melhor ambiente tecnológico para o Negocio.</p>
-                            <!--<p><a href="#" class="read-more">Read more <i class="icon-chevron-right"></i></a></p>-->
                         </div>
                     </div>
                 </div>
@@ -124,7 +132,6 @@
                         <div class="col-md-6">
                             <div class="gtco-practice-area-item animate-box">
                                 <div class="gtco-icon">
-                                   <!--<img src="images/scale.png" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">-->
                                     <img src="images/scale-50.png">
                                 </div>
                                 <div class="gtco-copy">
@@ -135,7 +142,6 @@
 
                             <div class="gtco-practice-area-item animate-box">
                                 <div class="gtco-icon">
-                                    <!--<img src="images/scale.png" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">-->
                                     <img src="images/scale-50.png">
                                 </div>
                                 <div class="gtco-copy">
@@ -157,9 +163,6 @@
 
                             <div class="gtco-practice-area-item animate-box">
                                 <div class="gtco-icon">
-                                    <!--
-                                    <img src="images/scale.png" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-                                    -->
                                     <img src="images/scale-50.png"/>
                                 </div>
                                 <div class="gtco-copy">
@@ -170,9 +173,6 @@
 
                             <div class="gtco-practice-area-item animate-box">
                                 <div class="gtco-icon">
-                                    <!--
-                                    <img src="images/scale.png" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-                                    -->
                                     <img src="images/scale-50.png"/>
                                 </div>
                                 <div class="gtco-copy">
@@ -183,9 +183,6 @@
 
                             <div class="gtco-practice-area-item animate-box">
                                 <div class="gtco-icon">
-                                    <!--                                    
-                                    <img src="images/scale.png" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-                                    -->
                                     <img src="images/scale-50.png"/>
                                 </div>
                                 <div class="gtco-copy">
@@ -211,9 +208,6 @@
                     <div class="row team-item gtco-team-reverse">
                         <div class="col-md-6 col-md-push-7 animate-box" data-animate-effect="fadeInRight">
                             <div class="img-shadow">
-                                <!--
-                                <img src="images/img_team_1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-                                -->
                                 <img src="images/29d34d1.jpg" class="img-responsive"/>
                             </div>
                         </div>
@@ -290,7 +284,6 @@
                                     <li class="address">Brasilia-DF, Goiânia-GO</li>
                                     <li class="phone"><a href="tel://+55629814040482">+55 61 8140 4048</a> | <a href="tel://+5562981676192">+55 62 98167 6192</a></li>
                                     <li class="email"><a href="mailto:contato@abapconsulting.com.br">contato@abapconsulting.com.br</a></li>
-                                    <!--<li class="url"><a href="#">http://example.com</a></li>-->
                                 </ul>
                             </div>
                         </div>

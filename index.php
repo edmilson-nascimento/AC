@@ -49,12 +49,10 @@
 
     </head>
     <?php
-    
-//    $mensagem = filter_input($_POST, 'message');
-    
-//    if (isset($_POST['message'])){
-    if (isset($_GET['message'])){
-        header('../');
+    $mensagem = filter_input(INPUT_POST, 'mensagem');
+
+    if (isset($mensagem)) {
+        echo 'mensagem(' . $mensagem . ')';
     }
     ?>
     <body>
@@ -260,18 +258,18 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-md-push-6 animate-box">
-                            <form action="#">
+                            <form method="post" action="#">
                                 <div class="form-group">
                                     <label for="name" class="sr-only">Nome</label>
-                                    <input type="text" class="form-control" placeholder="Nome" id="name">
+                                    <input type="text" name="nome" class="form-control" placeholder="Nome" id="name">
                                 </div>
                                 <div class="form-group">
                                     <label for="email" class="sr-only">E-mail</label>
-                                    <input type="text" class="form-control" placeholder="E-mail" id="email">
+                                    <input type="text" name="email" class="form-control" placeholder="E-mail" id="email">
                                 </div>
                                 <div class="form-group">
                                     <label for="message" class="sr-only">Mensagem</label>
-                                    <textarea name="message" id="message" class="form-control" cols="30" rows="6" placeholder="Mensagem"></textarea>
+                                    <textarea name="mensagem" id="message" class="form-control" cols="30" rows="6" placeholder="Mensagem"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <input type="submit" value="Enviar menssagem" class="btn btn-primary">

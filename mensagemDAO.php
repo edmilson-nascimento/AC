@@ -13,4 +13,8 @@
  */
 class mensagemDAO {
     
+    public function __construct() {
+        ;
+    }
+    
 }

@@ -1,6 +1,15 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111884406-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-111884406-1');
+        </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>ABAP Consulting</title>
@@ -49,11 +58,19 @@
 
     </head>
     <?php
+    /*
+    $nome     = filter_input(INPUT_POST, 'nome');
+    $email    = filter_input(INPUT_POST, 'email');
     $mensagem = filter_input(INPUT_POST, 'mensagem');
 
     if (isset($mensagem)) {
-        echo 'mensagem(' . $mensagem . ')';
+        
+        $dadosEmail = new Mensagem($nome, $email, $mensagem);
+        
+        $send = new mensagemDAO($dadosEmail);
+        $send->send();
     }
+    */
     ?>
     <body>
 
@@ -143,8 +160,8 @@
                                     <img src="images/scale-50.png">
                                 </div>
                                 <div class="gtco-copy">
-                                    <h3>Serviços SAP PI</h3>
-                                    <p>Estando sempre a vanguarda, os serviços de PI (Process Integration) vem para oferecer uma integração segura e precisa para seu negócio, de forma a prover um melhor alinhamento entre as soluções de software do seu Negocio. </p>
+                                    <h3>Serviços SAP PI/PO</h3>
+                                    <p>Estando sempre a vanguarda, os serviços de PI/PO (Process Integration/Process Orchestration) vem para oferecer uma integração segura e precisa para seu negócio, de forma a prover um melhor alinhamento entre as soluções de software do seu Negocio. </p>
                                 </div>
                             </div>                            
                             <div class="gtco-practice-area-item animate-box">
@@ -298,12 +315,14 @@
                                 <small class="block">&copy; 2017 M&E IT Services. Todos os direitos reservados.</small> 
                             </p>
                             <p class="pull-right">
+                            <!--
                             <ul class="gtco-social-icons pull-right">
                                 <li><a href="#"><i class="icon-twitter"></i></a></li>
                                 <li><a href="#"><i class="icon-facebook"></i></a></li>
                                 <li><a href="#"><i class="icon-linkedin"></i></a></li>
                                 <li><a href="#"><i class="icon-dribbble"></i></a></li>
                             </ul>
+                            -->
                             </p>
                         </div>
                     </div>

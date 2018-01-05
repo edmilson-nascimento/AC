@@ -17,7 +17,7 @@ class Mensagem {
     private $email;
     private $mensagem;
     
-    public function __construct($nome $email $mensagem) {
+    public function __construct($nome, $email, $mensagem) {
 
     }
     
